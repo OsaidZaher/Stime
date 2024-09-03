@@ -2,7 +2,7 @@
 import React from "react";
 import { Label } from "./ui/label";
 import { Input } from "./ui/input";
-import { cn } from "./lib/utilis";
+import { cn } from "@/lib/utilis";
 import { IconBrandFacebook, IconBrandGoogle } from "@tabler/icons-react";
 
 export default function SignupForm() {

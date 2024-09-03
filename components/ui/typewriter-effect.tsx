@@ -1,5 +1,5 @@
 "use client"; // to be rendered on server side
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utilis";
 import { motion, stagger, useAnimate, useInView } from "framer-motion"; //imports from  framer motion used to animate when in view and create the effect
 import { useEffect, useState } from "react"; //
 

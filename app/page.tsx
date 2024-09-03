@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
-import { TypewriterEffect } from "@/components/typewriter-effect";
+import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 import { motion } from "framer-motion";
-import SignupFormDemo from "@/components/signup-form-demo";
+import SignupForm from "@/components/signup-form";
 import { CrousalLoop } from "@/components/carousalLoop";
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <>
-      <section className="flex flex-col gap-4 py-4 md:py-6 custom-margin-right ">
+      <section className="flex flex-col gap-4 py-6 md:py-6 custom-margin-right ">
         <TypewriterEffect
           words={[
             { text: "Welcome" },
@@ -54,7 +54,7 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <SignupFormDemo />
+          <SignupForm />
         </motion.div>
       )}
     </>
